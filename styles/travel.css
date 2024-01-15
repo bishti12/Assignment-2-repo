@@ -1,0 +1,123 @@
+
+.header{
+    font-family: "Mulish", sans-serif;
+    max-width: 992px;
+    margin-left: 250px;
+    align-items: center;
+}
+/* nav bar styles */
+.nav-div{
+    max-width: 992px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+.first-div{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    ;
+
+}
+.h2{
+    margin-left: 10px;
+}
+.color{
+    color: #FF5400;
+
+}
+.second-div{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.second-div a{
+    text-decoration: none;
+    color:black ;
+}
+/* banner section start */
+
+#go{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 30px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    
+}
+#when{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+
+}
+#type{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 30px;
+    font-size: 15px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+
+}
+#red{
+    background-color: #FF5400;
+    color: #FFFFFF;
+    border-color: #FF5400;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+#icon{
+    width:15px;
+   
+}
+.banner{
+    margin-top: 30px;
+    margin-left: 250px;
+    overflow: hidden;
+    max-width: 992px;
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    filter: brightness(90%);
+    height: 500px;
+    font-family: "Mulish", sans-serif;
+}
+
+.banner-p{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-top: 130px;
+    
+}
+.not{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* banner section end */
+
+

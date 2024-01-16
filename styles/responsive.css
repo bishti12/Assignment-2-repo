@@ -1,4 +1,24 @@
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px){
+    .header{
+        font-family: "Mulish", sans-serif;
+        max-width: 992px;
+        margin: 0 auto;
+        align-items: center;
     
+    }
+    /* nav bar styles */
+    .nav-div{
+        max-width: 599px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+    }
+    .first-div{
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        ;
     
+    }
 }

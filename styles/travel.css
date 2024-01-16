@@ -156,7 +156,8 @@
     display: grid;
     margin-left: 250px;
 }
-.section-div-{
+
+.section-div-1{
     font-family: "Mulish", sans-serif;
     max-width: 992px;
 }
@@ -250,9 +251,11 @@
 }
 .size{
     width: 30px;
+    height: 30px;
+
 }
 .inline{
-    display: inline-flex;
+    display: flex;
     margin-left: 20px;
     
 }

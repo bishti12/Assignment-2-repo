@@ -1,8 +1,12 @@
+body{
+    max-width:992px;
+    margin:0 auto;
+}
 
 .header{
     font-family: "Mulish", sans-serif;
     max-width: 992px;
-    margin-left: 250px;
+    margin: 0 auto;
     align-items: center;
 }
 /* nav bar styles */
@@ -94,7 +98,7 @@
 }
 .banner{
     margin-top: 30px;
-    margin-left: 250px;
+    margin: 0 auto;
     overflow: hidden;
     max-width: 992px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -131,22 +135,21 @@
 .tag{
     font-family: "Mulish", sans-serif;
     font-size: 15px;
-    margin-top: 100px;
-    margin-left: 250px;
+    /* margin-top: 100px; */
+    /* margin-left: 250px; */
     text-align-last: left;
-    
 }
 #image{
     margin-top: 100px;
     width: 540px;
-    margin-right: 500px;
+    /* margin-right: 500px; */
     margin-left: 25px;
-    
 }
 .read{
     display: flex;
     max-width: 992px;
     align-items: center;
+    margin: 0 auto;
 }
 /* iteam 1 end */
 .srction-container{
@@ -154,7 +157,8 @@
 }
 .your{
     display: grid;
-    margin-left: 250px;
+    margin: 0 auto;
+    max-width: 992px;
 }
 
 .section-div-1{
@@ -169,37 +173,30 @@
     font-size: 20px;
 }
 .image-div-1{
-    width: 489px;
+    width: 50%;
     height: 200px;
-    
 }
 .image-div-2{
     /* margin-top: 10px; */
-    margin-left: 10px;
-    width: 489px;
+    /* margin-left: 10px; */
+    width: 50%;
     height: 200px;
 }
-#image1, #image3{
+#image1{
     height: 200px;
-    width: 290px;
+    width: 35%;
 }
 #image2{
-    margin-top: 10px;
     height: 200px;
-    width: 385px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 40%;
 }
 #image4{
-    width: 489px;
+    width: 40%;
     height: 200px;
-    margin-top: 10px;
 }
 #image5{
-    width: 489px;
+    width: 60%;
     height: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 /* item2 start */
 .font{
@@ -232,8 +229,7 @@
     border-radius: 5px;
     width: 446px;
     padding: 20px;
-    margin-left: 500px;
-    margin-top: 18px;
+    margin: 18px auto 0px auto;
 }
 .Trip{
     font-family: "Mulish", sans-serif;
@@ -241,8 +237,7 @@
 }
 .icon-div{
     display: flex;
-    margin-left: 250px;
-    
+    justify-content: center;
 }
 /* item3 end */
 /* item4 start */
@@ -259,23 +254,20 @@
     margin-left: 20px;
     
 }
-.add-image{
+.add-image,.add-image2{
     max-width: 992px;
+    height: 500px;
+    width: 992px;
+    margin: 100px auto 0px auto;
+    border-radius: 10px;
+}
+.add-image{
     background-image: url(../Images/Group\ 39.png);
     background-repeat: no-repeat;
-    height: 500px;
-    width: 992px;
-    margin-left: 250px;
-    margin-top: 100px;
 }
 .add-image2{
-    max-width: 992px;
     background-image: url(../Images/Group\ 40.png);
     background-repeat: no-repeat;
-    height: 500px;
-    width: 992px;
-    margin-left: 250px;
-    margin-top: 100px;
 }
 .add-image3{
     max-width: 992px;
@@ -283,8 +275,8 @@
     background-repeat: no-repeat;
     height: 500px;
     width: 992px;
-    margin-left: 250px;
-    margin-top: 100px;
+    margin: 100px auto 0px auto;
+    border-radius: 10px;
 }
 
 .travel2{
@@ -336,11 +328,9 @@
 .my{
     display: flex;
     text-align: left;
-    margin-top: 100px;
     max-width: 992px;
     height: 400px;
-    margin-left: 250px;
-    
+    margin: 100px auto 0px auto;
 }
 /* item5 end
 item6 start */
@@ -376,9 +366,9 @@ item6 start */
     margin-top: 100px;
     max-width: 992px;
     height: 550px;
-    margin-left: 250px;
     font-family: "Mulish", sans-serif;
     display: flex;
+    margin: 100px auto 0px auto;
 }
 .one-btn{
     position: relative;
@@ -408,8 +398,8 @@ item6 start */
 }
 .footer-1{
     max-width: 992px;
-    margin-left: 250px;
     text-align: center;
+    margin: 100px auto 0px auto;
 }
 p{
     margin-bottom:50px ;
@@ -424,13 +414,35 @@ p{
     border: 2px solid #d9d2cb;
     display: flex;
     text-align: center;
-    margin-left: 450px;
     max-width: 600px;
+    margin: 0 auto;
 }
 .footer-2{
     max-width: 992px;
-    margin-left: 250px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
+
+
+.section-div1 {
+    display: flex;
+    gap: 10px;
+}
+
+.section-div2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+img#image3 {
+    width: 25%;
+    height: 200px;
+}
+
+.section-div3 {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+

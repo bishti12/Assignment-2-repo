@@ -1,24 +1,122 @@
 @media screen and (max-width: 600px){
-    .header{
-        font-family: "Mulish", sans-serif;
-        max-width: 992px;
-        margin: 0 auto;
-        align-items: center;
-    
+    *{
+        box-sizing: border-box;
     }
-    /* nav bar styles */
-    .nav-div{
-        max-width: 599px;
+    body{
+        padding: 0px 20px;
+
+    }
+    .nav-div {
+        width: 100%;
         margin: 0 auto;
         margin-top: 50px;
         display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 100px;
     }
-    .first-div{
-        width: 50%;
+    .first-div {
+        width: 100%;
         height: 50px;
         display: flex;
         align-items: center;
-        ;
-    
+        justify-content: center;
+    }
+    .second-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* banner design */
+    .not {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #go,#when,#type{
+        margin-right: 0px;
+    }
+    .banner{
+        min-height: 60vh!important;
+        background-size: cover;
+    }
+    .banner-p{
+        margin-top: 50px;
+    }
+    .read {
+        flex-direction: column;
+    }
+    #image {
+        margin-top: 24px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-div1 {
+        display: flex;
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .section-div2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .section-div3 {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image-div-1, .image-div-2, #image1, #image2, #image3, #image4, #image5{
+        width: 100%!important;
+    }
+    .icon-div{
+        align-items: center;
+        flex-direction: column;
+    }
+    #background-color2 {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #background-color1 {
+        width: 100%;
+    }
+    .background-color3 {
+        width: 100%;
+    }
+    .travel {
+        width: 100%;
+        text-align: center;
+    }
+    .add-image, .add-image2, .add-image3 {
+        width: 100%!important;
+        padding: 0px;
+    }
+    .black {
+       height: auto;
+       width: 50%;
+    } 
+    .inline {
+        margin-left: 5px;
+    }
+    .my {
+        flex-direction: column;
+        width: 100%!important;
+    }
+    .name {
+        height: auto;
+        margin-bottom: 50px;
+         max-width: 300px;
+        
+    }
+    .Trip {
+        width: 300px;
     }
 }
